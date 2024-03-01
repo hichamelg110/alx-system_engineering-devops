@@ -12,4 +12,3 @@ echo '8.8.8.8 facebook.com' >> /etc/hosts
 echo "Success"
 
 cat /etc/hosts
-
