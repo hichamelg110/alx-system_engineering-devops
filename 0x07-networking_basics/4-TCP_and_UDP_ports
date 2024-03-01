@@ -1,2 +1,6 @@
-#!/usr/bin/env
-netstat -l --program
+#!/usr/bin/env bash
+echo "Active Internet connections (only servers)"
+sudo netstat -plntu
+echo "Active UNIX domain sockets (only servers)"
+sudo netstat -plnx
+
