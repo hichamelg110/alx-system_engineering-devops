@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-echo "Active Internet connections (only servers)"
-sudo netstat -plntu
-echo "Active UNIX domain sockets (only servers)"
-sudo netstat -plnx
+# Shows the listening ports and includes the listening sockets too.
+# includes the PID and the name of the program associated with each socket.
+
+netstat -l --program
 
